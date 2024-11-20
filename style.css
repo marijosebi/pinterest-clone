@@ -22,6 +22,7 @@ header nav{
     align-items: center;
     position: fixed;
     z-index: 1;
+    /* border: #e60023 solid; */
 }
 
 #pinterest-icon{
@@ -107,9 +108,11 @@ El right item solo es por el el div */
     cursor: pointer;
 }
 
-contenido{
+.contenido{
     position: absolute;
     margin-top: 80px;
+
+    /* border: solid green; */
 }
 
 .imagenes{
@@ -159,7 +162,7 @@ contenido{
 .oculto1{
     position: absolute;
     left: 60%;
-    bottom: 40px;
+    bottom: 20px;
     background-color: white;
     font-size: 30px;
     border-radius: 50px;
@@ -170,10 +173,10 @@ contenido{
     display: none;
 }
 
-.oculto1{
+.oculto2{
     position: absolute;
     left: 78%;
-    bottom: 40px;
+    bottom: 20px;
     background-color: white;
     font-size: 30px;
     border-radius: 50px;
